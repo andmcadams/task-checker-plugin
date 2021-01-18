@@ -9,4 +9,4 @@ Click it to open the task checker side panel.
 
 ![](https://i.imgur.com/JbzN5Cb.png)
 
-Initially, all tasks will be marked incomplete. Clicking the "Check Tasks" button will change all completed tasks to green.
+Initially, all tasks will be marked incomplete. Clicking the "Check tasks" button will change all completed tasks to green.
