@@ -65,7 +65,7 @@ public class TaskCheckerPlugin extends Plugin
 		taskCheckerPanel = new TaskCheckerPanel(this, tasksCopy);
 
 		final BufferedImage icon = ImageUtil.getResourceStreamFromClass(getClass(), "/task_icon.png");
-		navButton = NavigationButton.builder().tooltip("Task checker").icon(icon).priority(7).panel(taskCheckerPanel).build();
+		navButton = NavigationButton.builder().tooltip("Task Checker").icon(icon).priority(7).panel(taskCheckerPanel).build();
 		clientToolbar.addNavigation(navButton);
 	}
 
