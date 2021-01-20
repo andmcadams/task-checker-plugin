@@ -36,8 +36,8 @@ public enum Varplayers
 
 	// Beginner clues are varp 2201
 	// Master clues are varp 2353
-	MASTER_CASKETS_OPENED(2201),
-	BEGINNER_CASKETS_OPENED(2353),
+	MASTER_CASKETS_OPENED(2353),
+	BEGINNER_CASKETS_OPENED(2201),
 
 	// Cloister Bell, when ge than 5 quickstart is enabled
 	GROTESQUE_GUARDIANS_KILLCOUNT(1669),
