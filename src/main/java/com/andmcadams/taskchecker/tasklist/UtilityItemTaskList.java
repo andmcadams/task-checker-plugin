@@ -40,7 +40,7 @@ public class UtilityItemTaskList extends TaskList
 	{
 
 		Task attachKalphiteRopes = new Task.TaskBuilder()
-			.name("Attach ropes to both Kalphite Hives tunnel entrances")
+			.name("Attach ropes to both Kalphite Hives tunnel entrances (you may need to enter the Kalphite Hive)")
 			.switchVar(true, Varbits.KALPHITE_LAIR_OUTSIDE_ROPE.getId())
 			.geVar(true, Varbits.KALPHITE_LAIR_INSIDE_ROPE.getId(), 1)
 			.build();

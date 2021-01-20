@@ -62,7 +62,7 @@ public class TreasureTrailsTaskList extends TaskList
 
 		Task unlockHeavyCasket = new Task.TaskBuilder()
 			.name("Unlock the Heavy casket")
-			.geVar(true, Varbits.ELITE_CASKETS_OPENED.getId(), 200)
+			.geVar(false, Varplayers.ELITE_CASKETS_OPENED.getId(), 200)
 			.build();
 
 		Task unlockScrollSack = new Task.TaskBuilder()
