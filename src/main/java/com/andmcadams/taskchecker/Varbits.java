@@ -170,6 +170,7 @@ public enum Varbits
 	 * Champions Lamps
 	 */
 	// Bitmap 6278/9
+	CHAMPIONS_CHALLENGE_LAMPS_BITMAP(6279),
 
 	/**
 	 * Slayer rewards
