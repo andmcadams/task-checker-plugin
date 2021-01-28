@@ -95,15 +95,21 @@ public class EntrancesAndObstaclesTaskList extends TaskList
 			.switchVar(true, Varbits.UNLOCKED_ENAKHRAS_TEMPLE_E_DOOR.getId())
 			.build();
 
-		this.add(unblockLumbridgeSwampCavesHole);
-		this.add(unblockEagleTransport);
-		this.add(unblockKourendCatacombsEntrances);
-		this.add(unlockAccessToHarisArea);
-		this.add(unblockKrukDungeonPassage);
-		this.add(unlockDoorToEodan);
-		this.add(unlockForthosDungeonDoors);
-		this.add(unlockEnakhrasTempleEntrances);
-		this.add(unlockEnakhrasTempleSigilDoors);
+		Task excavateStatue = new Task.TaskBuilder()
+			.name("Unblock the statue leading to the Tunnel of Chaos")
+			.switchVar(true, Varbits.EXCAVATED_STATUE_TO_TUNNEL_OF_CHAOS.getId())
+			.build();
+
+		add(unblockLumbridgeSwampCavesHole);
+		add(unblockEagleTransport);
+		add(unblockKourendCatacombsEntrances);
+		add(unlockAccessToHarisArea);
+		add(unblockKrukDungeonPassage);
+		add(unlockDoorToEodan);
+		add(unlockForthosDungeonDoors);
+		add(unlockEnakhrasTempleEntrances);
+		add(unlockEnakhrasTempleSigilDoors);
+		add(excavateStatue);
 
 	}
 }

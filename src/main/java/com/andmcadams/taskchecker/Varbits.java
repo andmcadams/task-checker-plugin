@@ -231,6 +231,8 @@ public enum Varbits
 	UNLOCKED_ENAKHRAS_TEMPLE_N_DOOR(1613),
 	UNLOCKED_ENAKHRAS_TEMPLE_E_DOOR(1614),
 
+	EXCAVATED_STATUE_TO_TUNNEL_OF_CHAOS(3524),
+
 	/**
 	 * Dialogue box menu options
 	 */
