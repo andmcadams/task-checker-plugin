@@ -85,6 +85,11 @@ public class RightClickTaskList extends TaskList
 			.geVar(true, Varbits.LAST_CHARTER_SHIP_DESTINATION.getId(), 1)
 			.build();
 
+		Task unlockNPCContactLastContact = new Task.TaskBuilder()
+			.name("Unlock the NPC Contact spell's previous contract option")
+			.geVar(true, Varbits.LAST_NPC_CONTACT_CONTACT.getId(), 1)
+			.build();
+
 		add(unlockJarvaldTravel);
 		add(unlockMaryTan);
 		add(unlockIlfeenEnchant);
@@ -94,6 +99,7 @@ public class RightClickTaskList extends TaskList
 		add(unlockCloisterBellQuickStart);
 		add(unlockJewelleryBoxLastTeleport);
 		add(unlockCharterShipLastDestination);
+		add(unlockNPCContactLastContact);
 
 	}
 }

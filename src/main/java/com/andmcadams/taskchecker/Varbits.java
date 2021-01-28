@@ -268,8 +268,8 @@ public enum Varbits
 	UNLOCKED_MOUNTAIN_GUIDE_TRAVEL(5421),
 	// Cloister Bell is a varp
 	LAST_JEWELLERY_BOX_TELEPORT(2308), // 0 indicates never used
-	//LAST_GLIDER_DESTINATION(9584), // 0 actually DOES NOT indicate never used, default is return to Grand Tree
 	LAST_CHARTER_SHIP_DESTINATION(10068), // 0 indicates never used
+	LAST_NPC_CONTACT_CONTACT(5006), // 0 indicates never used
 
 	/**
 	 * Doomsayer Warnings
