@@ -93,6 +93,16 @@ public class UniqueDialoguePathsTaskList extends TaskList
 			.switchVar(true, Varbits.INFORMED_KNIGHT_OF_VARLAMORE.getId())
 			.build();
 
+		Task meetFairyAeryka = new Task.TaskBuilder()
+			.name("Listen to Fairy Aeryka's Puro-Puro introduction")
+			.switchVar(true, Varbits.MET_FAIRY_AERYKA.getId())
+			.build();
+
+		Task meetSilasDahcsnu = new Task.TaskBuilder()
+			.name("Listen to Sil'as Dahcsnu's initial dialogue")
+			.switchVar(true, Varbits.MET_SILAS_DAHCSNU.getId())
+			.build();
+
 		add(unlockRosie);
 		add(getDirectionsFromBaraek);
 		add(buyStaffFromEblis);
@@ -102,6 +112,8 @@ public class UniqueDialoguePathsTaskList extends TaskList
 		add(tellThreeDwarves);
 		add(askStreetUrchinToLureAgain);
 		add(informKnightOfVarlamore);
+		add(meetFairyAeryka);
+		add(meetSilasDahcsnu);
 	}
 
 }
