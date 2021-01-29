@@ -26,6 +26,7 @@ package com.andmcadams.taskchecker.tasklist;
 
 import com.andmcadams.taskchecker.Task;
 import com.andmcadams.taskchecker.Varbits;
+import com.andmcadams.taskchecker.var.Var;
 
 public class SlayerRewardsTaskList extends TaskList
 {
@@ -39,9 +40,19 @@ public class SlayerRewardsTaskList extends TaskList
 	public void initTasks()
 	{
 
+		Task unlockGargoyleSmasher = new Task.TaskBuilder()
+			.name("Unlock Gargoyle Smasher")
+			.switchVar(true, Varbits.UNLOCKED_GARGOYLE_SMASHER.getId())
+			.build();
+
 		Task unlockSlugSalter = new Task.TaskBuilder()
 			.name("Unlock Slug Salter")
 			.switchVar(true, Varbits.UNLOCKED_SLUG_SALTER.getId())
+			.build();
+
+		Task unlockReptileFreezer = new Task.TaskBuilder()
+			.name("Unlock Reptile Freezer")
+			.switchVar(true, Varbits.UNLOCKED_REPTILE_FREEZER.getId())
 			.build();
 
 		Task unlockShroomSprayer = new Task.TaskBuilder()
@@ -49,14 +60,88 @@ public class SlayerRewardsTaskList extends TaskList
 			.switchVar(true, Varbits.UNLOCKED_SHROOM_SPRAYER.getId())
 			.build();
 
+		Task unlockBroaderFletching = new Task.TaskBuilder()
+			.name("Unlock Broader Fletching")
+			.switchVar(true, Varbits.UNLOCKED_BROADER_FLETCHING.getId())
+			.build();
+
+		Task unlockMalevolentMasquerade = new Task.TaskBuilder()
+			.name("Unlock Malevolent Masquerade")
+			.switchVar(true, Varbits.UNLOCKED_MALEVOLENT_MASQUERADE.getId())
+			.build();
+
+		Task unlockRingBling = new Task.TaskBuilder()
+			.name("Unlock Ring Bling")
+			.switchVar(true, Varbits.UNLOCKED_RING_BLING.getId())
+			.build();
+
+		Task unlockBiggerAndBadder = new Task.TaskBuilder()
+			.name("Unlock Bigger and Badder")
+			.switchVar(true, Varbits.UNLOCKED_BIGGER_AND_BADDER.getId())
+			.build();
+
+		Task unlockKingBlackBonnet = new Task.TaskBuilder()
+			.name("Unlock King Black Bonnet")
+			.switchVar(true, Varbits.UNLOCKED_KING_BLACK_BONNET.getId())
+			.build();
+
+		Task unlockKalphiteKhat = new Task.TaskBuilder()
+			.name("Unlock Kalphite Khat")
+			.switchVar(true, Varbits.UNLOCKED_KALPHITE_KHAT.getId())
+			.build();
+
+		Task unlockUnholyHelmet = new Task.TaskBuilder()
+			.name("Unlock Unholy Helmet")
+			.switchVar(true, Varbits.UNLOCKED_UNHOLY_HELMET.getId())
+			.build();
+
+		Task unlockDarkMantle = new Task.TaskBuilder()
+			.name("Unlock Dark Mantle")
+			.switchVar(true, Varbits.UNLOCKED_DARK_MANTLE.getId())
+			.build();
+
+		Task unlockUndeadHead = new Task.TaskBuilder()
+			.name("Unlock Undead Head")
+			.switchVar(true, Varbits.UNLOCKED_UNDEAD_HEAD.getId())
+			.build();
+
+		Task unlockUseMoreHead = new Task.TaskBuilder()
+			.name("Unlock Use More Head")
+			.switchVar(true, Varbits.UNLOCKED_USE_MORE_HEAD.getId())
+			.build();
+
 		Task unlockDulyNoted = new Task.TaskBuilder()
 			.name("Unlock Duly Noted")
 			.switchVar(true, Varbits.UNLOCKED_DULY_NOTED.getId())
 			.build();
 
-		this.add(unlockSlugSalter);
-		this.add(unlockShroomSprayer);
-		this.add(unlockDulyNoted);
+		Task unlockStopTheWyvern = new Task.TaskBuilder()
+			.name("Unlock Stop the Wyvern")
+			.switchVar(true, Varbits.UNLOCKED_STOP_THE_WYVERN.getId())
+			.build();
+
+		Task unlockTwistedVision = new Task.TaskBuilder()
+			.name("Unlock Twisted Vision")
+			.switchVar(true, Varbits.UNLOCKED_TWISTED_VISION.getId())
+			.build();
+
+		add(unlockGargoyleSmasher);
+		add(unlockSlugSalter);
+		add(unlockReptileFreezer);
+		add(unlockShroomSprayer);
+		add(unlockBroaderFletching);
+		add(unlockMalevolentMasquerade);
+		add(unlockRingBling);
+		add(unlockBiggerAndBadder);
+		add(unlockKingBlackBonnet);
+		add(unlockKalphiteKhat);
+		add(unlockUnholyHelmet);
+		add(unlockDarkMantle);
+		add(unlockUndeadHead);
+		add(unlockUseMoreHead);
+		add(unlockDulyNoted);
+		add(unlockStopTheWyvern);
+		add(unlockTwistedVision);
 
 	}
 }

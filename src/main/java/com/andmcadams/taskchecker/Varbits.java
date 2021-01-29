@@ -170,27 +170,29 @@ public enum Varbits
 	 * Champions Lamps
 	 */
 	// Bitmap 6278/9
+	CHAMPIONS_CHALLENGE_LAMPS_BITMAP(6279),
 
 	/**
 	 * Slayer rewards
 	 */
-	// These are just a pain
-	// UNOLOCKED_GARGOYLE_SMASHER
+	// Thank you beta worlds
+	UNLOCKED_GARGOYLE_SMASHER(4027),
 	UNLOCKED_SLUG_SALTER(4028),
+	UNLOCKED_REPTILE_FREEZER(4029),
 	UNLOCKED_SHROOM_SPRAYER(4030),
-	// UNLOCKED_BROADER_FLETCHING
-	// UNLOCKED_MALEVOLENT_MASQUERADE
-	// UNLOCKED_RING_BLING
-	// UNLOCKED_BIGGER_AND_BADDER
-	// UNLOCKED_KING_BLACK_BONNET
-	// UNLOCKED_KALPHITE_KHAT
-	// UNLOCKED_UNHOLY_HELMET
-	// UNLOCKED_DARK_MANTLE
-	// UNLOCKED_UNDEAD_HEAD
-	// UNLOCKED_USE_MORE_HEAD
+	UNLOCKED_BROADER_FLETCHING(3208),
+	UNLOCKED_MALEVOLENT_MASQUERADE(3202),
+	UNLOCKED_RING_BLING(3207),
+	UNLOCKED_BIGGER_AND_BADDER(5358),
+	UNLOCKED_KING_BLACK_BONNET(5080),
+	UNLOCKED_KALPHITE_KHAT(5081),
+	UNLOCKED_UNHOLY_HELMET(5082),
+	UNLOCKED_DARK_MANTLE(5631),
+	UNLOCKED_UNDEAD_HEAD(6096),
+	UNLOCKED_USE_MORE_HEAD(6570),
 	UNLOCKED_DULY_NOTED(4589),
-	// UNLOCKED_STOP_THE_WYVERN
-	// UNLOCKED_TWISTED_VISION
+	UNLOCKED_STOP_THE_WYVERN(240),
+	UNLOCKED_TWISTED_VISION(10104),
 
 	/**
 	 * Entrances and obstacles
@@ -230,12 +232,14 @@ public enum Varbits
 	UNLOCKED_ENAKHRAS_TEMPLE_N_DOOR(1613),
 	UNLOCKED_ENAKHRAS_TEMPLE_E_DOOR(1614),
 
+	EXCAVATED_STATUE_TO_TUNNEL_OF_CHAOS(3524),
+
 	/**
 	 * Dialogue box menu options
 	 */
 	// I know Fritz doesn't have one.
 	// Check farming contract count for jane?
-	// Lap count for Ystwyth?
+	// Lap count for Ystwyth? No
 
 	/**
 	 * Spellbook features
@@ -267,8 +271,8 @@ public enum Varbits
 	UNLOCKED_MOUNTAIN_GUIDE_TRAVEL(5421),
 	// Cloister Bell is a varp
 	LAST_JEWELLERY_BOX_TELEPORT(2308), // 0 indicates never used
-	//LAST_GLIDER_DESTINATION(9584), // 0 actually DOES NOT indicate never used, default is return to Grand Tree
 	LAST_CHARTER_SHIP_DESTINATION(10068), // 0 indicates never used
+	LAST_NPC_CONTACT_CONTACT(5006), // 0 indicates never used
 
 	/**
 	 * Doomsayer Warnings
@@ -343,19 +347,13 @@ public enum Varbits
 	/**
 	 * Jar unlocks
 	 */
-	// Seems unlikely
-
-	/**
-	 * Item reclaim charge for Zulrah
-	 */
-	// Seems unlikely unless NPC or obj changes
+	// None for Kraken
 
 	/**
 	 * Buyable respawn locations
 	 */
-	// Both are likely varbs
-	// Edgeville?
-	// Ferox?
+	BOUGHT_EDGEVILLE_RESPAWN(623), //621 is set if active respawn
+	// No Ferox varb transmitted
 
 	/**
 	 * Miniquests
@@ -369,8 +367,8 @@ public enum Varbits
 	// Phoenix gang progress is a varp
 	BOUGHT_STAFF_FROM_EBLIS(391),
 	ASKED_BRUNDT_ABOUT_MTN_CAMP(265),
-	// ASKED_CAT_ABOUT_DESTROYER - UNKNOWN (hard to determine without doing it in game)
-	// ASKED_ZOOKNOCK_ABOUT_BRAZIER - UNKNOWN
+	ASKED_CAT_ABOUT_DESTROYER(447), // incs each time you ask, max at 3
+	// ASKED_ZOOKNOCK_ABOUT_BRAZIER - doesn't seem to be transmitted
 	ASKED_DWARVEN_BOATMAN_ABOUT_GOLD(312),
 	TOLD_THREE_DWARVES_BETWEEN_A_ROCK(307),
 	TOLD_THREE_DWARVES_GIANT_DWARF(583),
@@ -378,12 +376,14 @@ public enum Varbits
 	// INFORMED_MIAZRQA - UNKNOWN
 	ASKED_STREET_URCHIN_TO_LURE_AGAIN(319),
 	INFORMED_KNIGHT_OF_VARLAMORE(8409),
+	MET_FAIRY_AERYKA(3728),
+	MET_SILAS_DAHCSNU(3528),
 
 	/**
 	 * Loot tasks
  	 */
 	DADDYS_HOME_PROGRESS(10570), // Last varb val indicates Marlo's crate was opened
-	// MORTON_TABLE - UNKNOWN
+	// Mort'ton table is in the varp for that area
 	UNDERGROUND_PASS_CRATE(9126),
 	ELEMENTAL_WORKSHOP_CRATE(2066),
 	MEIYERDITCH_LABS_RUNE_CASE(2584),
@@ -409,6 +409,7 @@ public enum Varbits
 	OBSERVATORY_SPIDER_CHEST_6(3834),
 	// 2310, 9374, 0
 	OBSERVATORY_SPIDER_CHEST_7(3835),
+	ZEAH_WORKBENCH_NAILS(9684),
 
 	/**
 	 * Fire pits

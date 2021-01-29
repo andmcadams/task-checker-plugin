@@ -57,6 +57,7 @@ public class CompleteTaskList
 		TaskList motherlodeMine = new MotherlodeMineTaskList();
 		TaskList forgottenPrayers = new ForgottenPrayerTaskList();
 		TaskList treasureTrails = new TreasureTrailsTaskList();
+		TaskList championsChallenge = new ChampionsChallengeTaskList();
 		TaskList slayerRewards = new SlayerRewardsTaskList();
 		TaskList entrancesAndObstacles = new EntrancesAndObstaclesTaskList();
 		TaskList rightClick = new RightClickTaskList();
@@ -78,6 +79,7 @@ public class CompleteTaskList
 		taskLists.add(motherlodeMine);
 		taskLists.add(forgottenPrayers);
 		taskLists.add(treasureTrails);
+		taskLists.add(championsChallenge);
 		taskLists.add(slayerRewards);
 		taskLists.add(entrancesAndObstacles);
 		taskLists.add(rightClick);
