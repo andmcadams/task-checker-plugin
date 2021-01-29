@@ -69,7 +69,7 @@ public class UniqueDialoguePathsTaskList extends TaskList
 		// CAT - UNKNOWN
 		Task listenToCatExplain = new Task.TaskBuilder()
 			.name("Listen to your cat explain Icthlarin and the devourer again")
-			.switchVar(true, Varbits.ASKED_CAT_ABOUT_DESTROYER.getId())
+			.eqVar(true, Varbits.ASKED_CAT_ABOUT_DESTROYER.getId(), 3)
 			.build();
 
 		Task askDwarvenBoatmanAboutGold = new Task.TaskBuilder()
