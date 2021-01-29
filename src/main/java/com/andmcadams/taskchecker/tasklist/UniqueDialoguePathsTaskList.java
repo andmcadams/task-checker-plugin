@@ -67,7 +67,10 @@ public class UniqueDialoguePathsTaskList extends TaskList
 			.build();
 
 		// CAT - UNKNOWN
-		// ZOOKNOCK - UNKNOWN
+		Task listenToCatExplain = new Task.TaskBuilder()
+			.name("Listen to your cat explain Icthlarin and the devourer again")
+			.switchVar(true, Varbits.ASKED_CAT_ABOUT_DESTROYER.getId())
+			.build();
 
 		Task askDwarvenBoatmanAboutGold = new Task.TaskBuilder()
 			.name("Asked the Dwarven Boatman about transporting gold")
@@ -108,6 +111,7 @@ public class UniqueDialoguePathsTaskList extends TaskList
 		add(buyStaffFromEblis);
 		add(askBrundtAboutMtnCamp);
 		add(talkToTrufitus);
+		add(listenToCatExplain);
 		add(askDwarvenBoatmanAboutGold);
 		add(tellThreeDwarves);
 		add(askStreetUrchinToLureAgain);
