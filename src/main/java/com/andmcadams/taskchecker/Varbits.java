@@ -239,7 +239,7 @@ public enum Varbits
 	 */
 	// I know Fritz doesn't have one.
 	// Check farming contract count for jane?
-	// Lap count for Ystwyth?
+	// Lap count for Ystwyth? No
 
 	/**
 	 * Spellbook features
@@ -347,19 +347,13 @@ public enum Varbits
 	/**
 	 * Jar unlocks
 	 */
-	// Seems unlikely
-
-	/**
-	 * Item reclaim charge for Zulrah
-	 */
-	// Seems unlikely unless NPC or obj changes
+	// None for Kraken
 
 	/**
 	 * Buyable respawn locations
 	 */
-	// Both are likely varbs
-	// Edgeville?
-	// Ferox?
+	BOUGHT_EDGEVILLE_RESPAWN(623), //621 is set if active respawn
+	// No Ferox varb transmitted
 
 	/**
 	 * Miniquests
@@ -373,8 +367,8 @@ public enum Varbits
 	// Phoenix gang progress is a varp
 	BOUGHT_STAFF_FROM_EBLIS(391),
 	ASKED_BRUNDT_ABOUT_MTN_CAMP(265),
-	// ASKED_CAT_ABOUT_DESTROYER - UNKNOWN (hard to determine without doing it in game)
-	// ASKED_ZOOKNOCK_ABOUT_BRAZIER - UNKNOWN
+	ASKED_CAT_ABOUT_DESTROYER(447), // incs each time you ask, max at 3
+	// ASKED_ZOOKNOCK_ABOUT_BRAZIER - doesn't seem to be transmitted
 	ASKED_DWARVEN_BOATMAN_ABOUT_GOLD(312),
 	TOLD_THREE_DWARVES_BETWEEN_A_ROCK(307),
 	TOLD_THREE_DWARVES_GIANT_DWARF(583),
@@ -389,7 +383,7 @@ public enum Varbits
 	 * Loot tasks
  	 */
 	DADDYS_HOME_PROGRESS(10570), // Last varb val indicates Marlo's crate was opened
-	// MORTON_TABLE - UNKNOWN
+	// Mort'ton table is in the varp for that area
 	UNDERGROUND_PASS_CRATE(9126),
 	ELEMENTAL_WORKSHOP_CRATE(2066),
 	MEIYERDITCH_LABS_RUNE_CASE(2584),
