@@ -100,6 +100,11 @@ public class EntrancesAndObstaclesTaskList extends TaskList
 			.switchVar(true, Varbits.EXCAVATED_STATUE_TO_TUNNEL_OF_CHAOS.getId())
 			.build();
 
+		Task exitThroughSecretExit = new Task.TaskBuilder()
+			.name("Exit through the Troll Stronghold's secret exit")
+			.switchVar(true, Varbits.EXITED_THROUGH_TROLL_STRONGHOLD_SECRET_EXIT.getId())
+			.build();
+
 		add(unblockLumbridgeSwampCavesHole);
 		add(unblockEagleTransport);
 		add(unblockKourendCatacombsEntrances);
@@ -110,6 +115,6 @@ public class EntrancesAndObstaclesTaskList extends TaskList
 		add(unlockEnakhrasTempleEntrances);
 		add(unlockEnakhrasTempleSigilDoors);
 		add(excavateStatue);
-
+		add(exitThroughSecretExit);
 	}
 }
