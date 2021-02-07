@@ -57,7 +57,7 @@ public enum Varbits
 	/**
 	 * Motherlode Mine
 	 */
-	// Upstairs mines access?
+	// Upstairs mines access has no varb/varp :(
 	// Bigger sack? probably 5556
 	UPGRADED_MLM_SACK(5556),
 
@@ -71,6 +71,8 @@ public enum Varbits
 	 */
 	// Large water container?
 	// Fertile soil warning?
+	UNLOCKED_LARGE_WATER_CONTAINER(5959),
+	// ash covered tome bought is 5960
 
 	/**
 	 * Ava's effects
@@ -116,6 +118,7 @@ public enum Varbits
 	 * Graceful outfits
 	 */
 	// Ability to buy single Agility Arena recolours?
+	UNLOCKED_BRIMHAVEN_SINGLE_RECOLORS(5967),
 
 	/**
 	 * Bounty Hunter rewards
@@ -233,6 +236,7 @@ public enum Varbits
 	UNLOCKED_ENAKHRAS_TEMPLE_E_DOOR(1614),
 
 	EXCAVATED_STATUE_TO_TUNNEL_OF_CHAOS(3524),
+	EXITED_THROUGH_TROLL_STRONGHOLD_SECRET_EXIT(1),
 
 	/**
 	 * Dialogue box menu options
@@ -378,6 +382,13 @@ public enum Varbits
 	INFORMED_KNIGHT_OF_VARLAMORE(8409),
 	MET_FAIRY_AERYKA(3728),
 	MET_SILAS_DAHCSNU(3528),
+	MET_DAMPE(11774),
+	MET_DRUNKEN_DWARF(574),
+	RECEIVE_THANKS_FROM_HAMAL(272),
+	BOUGHT_CANDLE_FROM_CANDLE_SELLER(284),
+	CLAIMED_RAMS_SKULL_HELM(2048),
+	CLAIMED_BONESACK(2049),
+	ASKED_ABOUT_GUARD_UNIFORM(2495),
 
 	/**
 	 * Loot tasks
@@ -410,6 +421,11 @@ public enum Varbits
 	// 2310, 9374, 0
 	OBSERVATORY_SPIDER_CHEST_7(3835),
 	ZEAH_WORKBENCH_NAILS(9684),
+	PISCATORIS_BRONZE_PICKAXE(2109),
+	PISCATORIS_BRONZE_AXE(2110),
+	ANCIENT_LETTER_FORSAKEN_TOWER(7810),
+	TATTY_NOTE_KEBOS_LOWLANDS(7951),
+	PICKPOCKETED_TEDDY(2559),
 
 	/**
 	 * Fire pits
