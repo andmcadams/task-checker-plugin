@@ -40,7 +40,7 @@ public class InvisibleTaskList extends TaskList
 	{
 
 		Task ancientLetter = new Task.TaskBuilder()
-			.name("Loot the Ancient letter from the Forsake Tower")
+			.name("Loot the Ancient letter from the Forsaken Tower")
 			.switchVar(true, Varbits.ANCIENT_LETTER_FORSAKEN_TOWER.getId())
 			.build();
 
