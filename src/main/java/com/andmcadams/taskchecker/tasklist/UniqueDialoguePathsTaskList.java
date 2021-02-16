@@ -96,48 +96,6 @@ public class UniqueDialoguePathsTaskList extends TaskList
 			.switchVar(true, Varbits.INFORMED_KNIGHT_OF_VARLAMORE.getId())
 			.build();
 
-		Task meetFairyAeryka = new Task.TaskBuilder()
-			.name("Listen to Fairy Aeryka's Puro-Puro introduction")
-			.switchVar(true, Varbits.MET_FAIRY_AERYKA.getId())
-			.build();
-
-		Task meetSilasDahcsnu = new Task.TaskBuilder()
-			.name("Listen to Sil'as Dahcsnu's initial dialogue")
-			.switchVar(true, Varbits.MET_SILAS_DAHCSNU.getId())
-			.build();
-
-		Task meetDampe = new Task.TaskBuilder()
-			.name("Listen to Dampe explain shade coffins")
-			.switchVar(true, Varbits.MET_DAMPE.getId())
-			.build();
-
-		Task meetDrunkenDwarf = new Task.TaskBuilder()
-			.name("Listen to the Drunken Dwarf talk about his relative")
-			.switchVar(true, Varbits.MET_DRUNKEN_DWARF.getId())
-			.build();
-
-		Task receiveThanksFromHamal = new Task.TaskBuilder()
-			.name("Receive thanks from Hamal after completing Mountain Daughter")
-			.switchVar(true, Varbits.RECEIVE_THANKS_FROM_HAMAL.getId())
-			.build();
-
-		Task buyCandleFromCandleSeller = new Task.TaskBuilder()
-			.name("Buy a candle from the Candle Seller in Lumbridge Swamp and listen to his warning")
-			.switchVar(true, Varbits.BOUGHT_CANDLE_FROM_CANDLE_SELLER.getId())
-			.build();
-
-		Task claimRagAndBoneManIIRewards = new Task.TaskBuilder()
-			.name("Claim the Rams skull helm and Bonesack from the Odd old man")
-			.switchVar(true, Varbits.CLAIMED_RAMS_SKULL_HELM.getId())
-			.switchVar(true, Varbits.CLAIMED_BONESACK.getId())
-			.build();
-
-		// Note that this doesn't actually change dialogue as far as I can tell.
-		Task askBlackKnightFortressGuardAboutUniform = new Task.TaskBuilder()
-			.name("Ask a Fortress guard about their uniform outside the Black Knights' Fortress")
-			.switchVar(true, Varbits.ASKED_ABOUT_GUARD_UNIFORM.getId())
-			.build();
-
 		add(unlockRosie);
 		add(getDirectionsFromBaraek);
 		add(buyStaffFromEblis);
@@ -148,14 +106,6 @@ public class UniqueDialoguePathsTaskList extends TaskList
 		add(tellThreeDwarves);
 		add(askStreetUrchinToLureAgain);
 		add(informKnightOfVarlamore);
-		add(meetFairyAeryka);
-		add(meetSilasDahcsnu);
-		add(meetDampe);
-		add(meetDrunkenDwarf);
-		add(receiveThanksFromHamal);
-		add(buyCandleFromCandleSeller);
-		add(claimRagAndBoneManIIRewards);
-		add(askBlackKnightFortressGuardAboutUniform);
 	}
 
 }

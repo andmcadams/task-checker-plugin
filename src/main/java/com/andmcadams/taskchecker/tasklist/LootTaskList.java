@@ -110,32 +110,6 @@ public class LootTaskList extends TaskList
 			.switchVar(true, Varbits.OBSERVATORY_SPIDER_CHEST_7.getId())
 			.build();
 
-		Task zeahWorkbenchNails = new Task.TaskBuilder()
-			.name("Loot the workbench containing iron nails at Gordon's farm")
-			.switchVar(true, Varbits.ZEAH_WORKBENCH_NAILS.getId())
-			.build();
-
-		Task piscatorisTools = new Task.TaskBuilder()
-			.name("Loot the bronze axe and pickaxe in the Piscatoris fishing colony")
-			.switchVar(true, Varbits.PISCATORIS_BRONZE_PICKAXE.getId())
-			.switchVar(true, Varbits.PISCATORIS_BRONZE_AXE.getId())
-			.build();
-
-		Task ancientLetter = new Task.TaskBuilder()
-			.name("Loot the Ancient letter from the Forsake Tower")
-			.switchVar(true, Varbits.ANCIENT_LETTER_FORSAKEN_TOWER.getId())
-			.build();
-
-		Task tattyNote = new Task.TaskBuilder()
-			.name("Loot the Tatty note from the bed in the Kebos Lowlands")
-			.switchVar(true, Varbits.TATTY_NOTE_KEBOS_LOWLANDS.getId())
-			.build();
-
-		Task pickpocketTeddy = new Task.TaskBuilder()
-			.name("Pickpocket Teddy from the female student in the Digsite")
-			.switchVar(true, Varbits.PICKPOCKETED_TEDDY.getId())
-			.build();
-
 		add(openMarlosCrate);
 		add(searchMorttonTable);
 		add(undergroundPassCrate);
@@ -148,10 +122,5 @@ public class LootTaskList extends TaskList
 		add(fenkenstrainClockLetter);
 		add(goblinVillageGoblinMail);
 		add(observatorySpiderChests);
-		add(zeahWorkbenchNails);
-		add(piscatorisTools);
-		add(ancientLetter);
-		add(tattyNote);
-		add(pickpocketTeddy);
 	}
 }

@@ -73,6 +73,8 @@ public class CompleteTaskList
 		TaskList lostItems = new LostItemsTaskList();
 		TaskList trappedSouls = new TrappedSoulsTaskList();
 		TaskList redeemableQuestItems = new RedeemableQuestItemsTaskList();
+		TaskList temporary = new TemporaryTaskList();
+		TaskList invisible = new InvisibleTaskList();
 
 		taskLists.add(hallowedSepulchre);
 		taskLists.add(titheFarm);
@@ -95,6 +97,8 @@ public class CompleteTaskList
 		taskLists.add(lostItems);
 		taskLists.add(trappedSouls);
 		taskLists.add(redeemableQuestItems);
+		taskLists.add(temporary);
+		taskLists.add(invisible);
 
 		int sum = 0;
 		for(TaskList taskList : taskLists)
