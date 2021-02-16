@@ -132,12 +132,6 @@ public class UniqueDialoguePathsTaskList extends TaskList
 			.switchVar(true, Varbits.CLAIMED_BONESACK.getId())
 			.build();
 
-		// Note that this doesn't actually change dialogue as far as I can tell.
-		Task askBlackKnightFortressGuardAboutUniform = new Task.TaskBuilder()
-			.name("Ask a Fortress guard about their uniform outside the Black Knights' Fortress")
-			.switchVar(true, Varbits.ASKED_ABOUT_GUARD_UNIFORM.getId())
-			.build();
-
 		add(unlockRosie);
 		add(getDirectionsFromBaraek);
 		add(buyStaffFromEblis);
@@ -155,7 +149,6 @@ public class UniqueDialoguePathsTaskList extends TaskList
 		add(receiveThanksFromHamal);
 		add(buyCandleFromCandleSeller);
 		add(claimRagAndBoneManIIRewards);
-		add(askBlackKnightFortressGuardAboutUniform);
 	}
 
 }
