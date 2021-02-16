@@ -588,8 +588,9 @@ public enum Varbits
 	// Warnings
 
 	// Set to 1 when off
-	WARNING_MINIGAME_TELEPORT(5410);
+	WARNING_MINIGAME_TELEPORT(5410),
 
+	ENTERED_WILDERNESS_COUNTER(4149);
 
 	private final int id;
 }

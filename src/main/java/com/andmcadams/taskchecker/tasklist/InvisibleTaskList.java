@@ -65,10 +65,16 @@ public class InvisibleTaskList extends TaskList
 			.switchVar(true, Varbits.EXITED_THROUGH_TROLL_STRONGHOLD_SECRET_EXIT.getId())
 			.build();
 
+		Task enterTheWilderness = new Task.TaskBuilder()
+			.name("Enter the Wilderness 1000 times")
+			.eqVar(true, Varbits.ENTERED_WILDERNESS_COUNTER.getId(), 1000)
+			.build();
+
 		add(ancientLetter);
 		add(tattyNote);
 		add(pickpocketTeddy);
 		add(askBlackKnightFortressGuardAboutUniform);
 		add(exitThroughSecretExit);
+		add(enterTheWilderness);
 	}
 }
