@@ -32,7 +32,7 @@ public class TemporaryTaskList extends TaskList
 
 	public TemporaryTaskList()
 	{
-		super("Confirmed tasks");
+		super("Other tasks");
 		initTasks();
 	}
 
